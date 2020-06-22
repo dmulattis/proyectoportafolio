@@ -1,15 +1,164 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Ejemplo</title>
-  <h1>hola como estas?</h1>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.4">
-  <style type="text/css">
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/63a26b38d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portafolio</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sobre mí <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experiencia</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Trabajos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactos</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <img src="assets/IMG/bg_hero.png" alt="">
+      <h1>Tecnologí y videojuegos</h1>
+    </header>
+        <section class="bg-light text-center pt-5">
+            <div class="row">
+                <div class="mt-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div>
+                        <i class="fas fa-gamepad fa-5x"></i>
+                        <p>Viedeojuegos</p>
+                    </div>
+                </div>
+                <div class="mt-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div>
+                        <i class="fas fa-flask fa-5x"></i>
+                        <p>Ciencia</p>
+                    </div>
+                  </div>
+                  <div class="mt-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                      <div>
+                          <i class="fas fa-futbol fa-5x"></i>
+                          <p>Deporte</p>
+                      </div>
+                </div>
+    </main>
+  </section>
+  <section class="border-top border-dark">
+    <h2 class="text-center font-weight-bold mt-4">Mis Últimos Trabajos</h2>
+  </section>
+  <section class="mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <span class="badge badge-success d-none d-sm-inline d-md-none">sm</span>
+      <ol class="carousel-indicators botonesCarrusel">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/cuppon.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">Cuppon</h5>
+            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/dmark.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">Computador</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/iguana_page.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">Iguana</h5>
+            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/meet_coffee.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">Meet and Cofee</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/ricomida.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">Rico comida</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4">
+        <div class="card">
+          <img src="./assets/img/suricata.png" class="card-img-top" alt="img1234">
+          <div class="card-body">
+            <h5 class="card-title">suricata</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+</main>
+<section class="container-fluid bg-info py-5 newsletter">
+<div class="text-center text-white">
+  <h3 class="mt-5">Contacto</h3>
+  <p class="font-weight-light mx-5">¿Quieres conocer más de mí? <span class="textoLobster"></span></p>
+</div>
+<div class="text-center">
+  <button type="button" class="btn my-3 py-2 px-5 text-white border border-white" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Comenzar</button>
+</div>
+</section>
+<footer class="bg-warning text-white py-4">
+  <div class="col-4">
+     <style></style>
+    <font-size: 100px;></font-size:>
+</div>
+<div class="row">
+<div class="col-8 text-center">
+  <i class="fab fa-facebook fa-3x mx-10"></i>
+  <i class="fab fa-linkedin fa-3x mx-2"></i>
+    <i class="fab fa-instagram-square fa-3x mx-2"></i>
+    <p class="textoLobster text-left">Diego</p>
+
+</div>
+</div>
+</div>
+</footer>
+<footer id="contacto" class="oscuro">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
