@@ -1,13 +1,23 @@
 
+   .imgFondo {
+    background-image:  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh;
+}
+
+
+    
     section, footer {
-        margin-top: 30rem;
-      }
-      
-      footer {
-        padding: 3.125rem;
-      }
-      
-      .centrado {
-        width: 75%;
-        margin: 0 auto;
-      }
+      margin-top: 30rem;
+    }
+    
+    footer {
+      padding: 3.125rem;
+    }
+    
+    .centrado {
+      width: 75%;
+      margin: 0 auto;
+    }
